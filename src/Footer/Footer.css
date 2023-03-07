@@ -1,0 +1,20 @@
+.footer__body{
+    background-color: #E9E9E9;
+    /* height: 300px; */
+    padding: 40px;
+}
+
+.footer{
+    background-color: #D9D9D9;
+}
+
+.footer__social{
+    margin-left: 18px;
+}
+
+@media (max-width: 425px) {
+    .footer__heading{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+}

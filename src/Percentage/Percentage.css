@@ -1,0 +1,9 @@
+.percentage__body {
+    background-color: #E5FFDD;
+    padding: 50px;
+}
+
+.percentage__num{
+    font-size: 35px;
+    font-weight: 400;
+}

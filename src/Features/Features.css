@@ -1,0 +1,26 @@
+
+.features__img {
+    height: 500px;
+    width: 900px;
+}
+
+.feature__body{
+    padding: 0px 100px;
+}
+
+
+@media (max-width: 425px){
+    .features__img{
+        width: 200px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature__body{
+        padding: 0px 100px;
+    }
+    .features__img{
+        width: 500px;
+    }
+}

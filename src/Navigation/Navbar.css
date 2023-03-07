@@ -1,0 +1,36 @@
+
+.nav__btn{
+    margin-left: 20px;
+    width: 120px;
+}
+.nav__img{
+    margin: 10px 70px;
+}
+
+.nav__content{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@media (max-width: 425px){
+    .nav__img{
+        margin: 10px 10px;
+    }
+    .nav__form{
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1024px){
+    .nav__img{
+        margin: 10px 10px;
+    }
+    .nav__btn{
+        display: inline;
+        width: 80px;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+}
